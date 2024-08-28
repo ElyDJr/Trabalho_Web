@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Cadastro</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tabela2.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Cadastro de Usuário</h1>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+    
+                <label for="telefone">telefone:</label>
+                <input type="telefone" id="telefone" name="telefone">
+                
+                <h1>Cadastro de Imóvel</h1>
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco">
+    
+                <label for="tipo">Tipo de Imóvel:</label>
+                <select id="tipo" name="tipo">
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                    <option value="hotel">Hotel</option>
+                </select>
+    
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" name="valor">
+    
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>     
+    </main>
+    <footer>
+        <p>Hospedagem © 2024</p>
+    </footer>
+</body>
+</html>
